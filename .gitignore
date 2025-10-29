@@ -1,0 +1,71 @@
+# =====================================
+# 🌐 General
+# =====================================
+.DS_Store
+Thumbs.db
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# =====================================
+# ⚙️ Node.js
+# =====================================
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# =====================================
+# 🧱 Build outputs (frontend + backend)
+# =====================================
+dist/
+build/
+.vite/
+coverage/
+.next/
+out/
+.tmp/
+.cache/
+
+# =====================================
+# 🧰 Frontend (Vite + React + Tailwind)
+# =====================================
+vibe-frontend/node_modules/
+vibe-frontend/dist/
+vibe-frontend/.env
+vibe-frontend/.env.local
+vibe-frontend/.vite/
+vibe-frontend/.eslintcache
+
+# =====================================
+# 🧩 Backend (Node + Express + MongoDB)
+# =====================================
+vibe-backend/node_modules/
+vibe-backend/.env
+vibe-backend/.env.local
+vibe-backend/uploads/
+vibe-backend/temp/
+vibe-backend/logs/
+vibe-backend/.cache/
+
+# =====================================
+# 🧪 Testing / Coverage
+# =====================================
+coverage/
+.vscode/
+.idea/
+
+# =====================================
+# ⚡ OS & Editor Specific
+# =====================================
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+*.log
+.vscode/
+*.iml

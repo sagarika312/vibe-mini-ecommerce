@@ -1,0 +1,12 @@
+{
+  "name": "vibe-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix \"\"vibe-backend\"\" run dev\" \"npm --prefix \"\"vibe-frontend\"\" run dev\"",
+    "start": "concurrently \"npm --prefix \"\"vibe-backend\"\" run start\" \"npm --prefix \"\"vibe-frontend\"\" run preview\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
